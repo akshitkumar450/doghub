@@ -1,0 +1,141 @@
+#title
+{
+	background-color: #ff4c68;
+	color: #fff;
+}
+h1,h2,h3
+{
+	font-size: 3.5rem;
+	line-height: 1.5;
+	
+}
+.container-fliud
+{
+	padding: 3% 15% 15%;
+}
+.navbar-brand {
+	font-size: 10%;
+	font-weight: bold; 
+}
+ .navbar{
+ 	padding-bottom: 4.5rem;
+ }
+ .nav-item{
+ 	padding: 0 10px;
+ }
+ .nav-link{
+ 	font-size: 1.2rem;
+ }
+ .download-buttons{
+ 	margin: 5% 3% 5% 0;
+ }
+ .titleimage
+ {
+ 	width: 60%;
+ 	transform: rotate(25deg);
+ 	position: absolute;
+ 	right: 30%;
+ 	top: 20%
+
+ 
+ }
+
+#features{
+	padding: 10%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+	
+}
+.features-icons{
+	color: orange;
+	margin: 5%;
+}
+.features-icons:hover
+{
+	color: #ff4c68;
+
+}
+.features-box {
+	text-align: center;
+	background-color: gray;
+	
+	/*padding: 5%;*/
+}
+p
+{
+	color: #8f8f8f;
+}
+#testimonials{
+	
+	text-align: center;
+	background-color: orange;
+	color: #fff;
+}
+.testimonial-image{
+	border-radius: 100%;
+	width: 20%;
+	margin: 10px;
+	padding-top: 20px;
+}
+#press
+{
+	background-color: orange;
+	text-align: center;
+	padding-bottom: 20px;
+
+
+}
+.press-images
+{
+	width: 15%;
+	margin: 20px 20px;
+}
+.carousel-item
+{
+	padding: 5% 15%;
+}
+
+#pricing{
+	padding: 5%;
+}
+.pricing-column{
+	margin-top: 10px;
+	text-align: center;
+}
+@media (max-width: 1028px)
+{
+
+.titleimage{
+	position: static;
+	transform: rotate(0deg);
+}
+#title
+{
+	text-align: center; 
+}
+
+}
+#cta
+{
+	background-color: #ff4c68;
+	height: 300px;
+	text-align: center;
+	padding-top: 100px;
+	color: #fff;
+	font-size: 50px;
+}
+.cta-button{
+	margin: 10px 8px;
+}
+#footer
+{
+	height: 300px;
+	text-align: center;
+	padding-top: 100px;
+
+}
+.footer-icons
+{
+	margin: 10px 8px;
+}
